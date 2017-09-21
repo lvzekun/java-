@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ <package name="SSHLogin" extends="struts-default">
+       
+       <action name="login" class="lvLogin" method="login">
+           <result name="SUCCESS">/Success.jsp</result>
+           <result name="FAILURE">/Failure.jsp</result>
+       </action>
+       <action name="regist" class="lvLogin" method="regist">
+           <result name="SUCCESS">/Success.jsp</result>
+           <result name="FAILURE">/Failure.jsp</result>
+       </action>
+       <action name="listAllUser" class="lvLogin" method="listAllUser">
+           <result name="SUCCESS">/listAllUser.jsp</result>
+           <result name="FAILURE">/Failure.jsp</result>
+       </action>
+        <action name="showPageUser" class="lvLogin" method="showPageUser">
+           <result name="SUCCESS">/showpageuser.jsp</result>
+           <result name="FAILURE">/Failure.jsp</result>
+       </action>
+       </package>
+</struts>    

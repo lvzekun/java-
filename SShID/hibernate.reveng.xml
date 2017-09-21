@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="test" schema="dbo" catalog="MyTest2" class="User"></table>
+	<table name="test2" schema="dbo" catalog="MyTest2" class="User2"></table>
+	<table name="t_need" schema="dbo" catalog="MyTest2" class="User3"></table>
+	<table name="test3" schema="dbo" catalog="MyTest2" class="User3"></table>
+	<table name="JH" schema="dbo" catalog="MyTest2" class="User4"></table>
+	<table name="ST" schema="dbo" catalog="MyTest2" class="St"></table>
+	<table name="login" schema="dbo" catalog="dbStudy" class="User"></table>
+</hibernate-reverse-engineering>

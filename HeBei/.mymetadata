@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="HeBei"
+  id="myeclipse.1492657149865"
+  context-root="/HeBei"
+  j2ee-spec="5.0"
+  archive="HeBei.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
